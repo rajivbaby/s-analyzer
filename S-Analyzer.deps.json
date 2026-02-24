@@ -1,0 +1,76 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "S-Analyzer/1.0.0": {
+        "dependencies": {
+          "Costura.Fody": "6.0.0",
+          "Fody": "6.9.3",
+          "PortableCostura.Fody": "6.0.2",
+          "ZedGraph6": "6.0.0"
+        },
+        "runtime": {
+          "S-Analyzer.dll": {}
+        }
+      },
+      "Costura.Fody/6.0.0": {
+        "dependencies": {
+          "Fody": "6.9.3"
+        }
+      },
+      "Fody/6.9.3": {},
+      "PortableCostura.Fody/6.0.2": {
+        "dependencies": {
+          "Fody": "6.9.3"
+        }
+      },
+      "ZedGraph6/6.0.0": {
+        "runtime": {
+          "lib/net6.0-windows7.0/ZedGraph6.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "S-Analyzer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Costura.Fody/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3Uriu9GJABMivG0wXMJs6NQ7FNE3pylir1gZEBAWDvpii3cnrmxXnOG44MMDuIVOIk/Xhef7WZFsaCNV+py9qA==",
+      "path": "costura.fody/6.0.0",
+      "hashPath": "costura.fody.6.0.0.nupkg.sha512"
+    },
+    "Fody/6.9.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1CUGgFdyECDKgi5HaUBhdv6k+VG9Iy4OCforGfHyar3xQXAJypZkzymgKtWj/4SPd6nSG0Qi7NH71qHrDSZLaA==",
+      "path": "fody/6.9.3",
+      "hashPath": "fody.6.9.3.nupkg.sha512"
+    },
+    "PortableCostura.Fody/6.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-X/NvKCmjLVPGP0nB7FjkJMTr5FbPAI80IuQCZnGXuihQFsAF4ouueW2nVXOYruWZJc64ZEC+IhSQCYL2UdxoAw==",
+      "path": "portablecostura.fody/6.0.2",
+      "hashPath": "portablecostura.fody.6.0.2.nupkg.sha512"
+    },
+    "ZedGraph6/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ub3xq8TtokXdIFl+ATfhCdWtA7hg9wpcpW1l+MJ0zIZWatDPN2BO4xx2zeF/H6wwr5NKYViT1U3q9qCuu1Mh+Q==",
+      "path": "zedgraph6/6.0.0",
+      "hashPath": "zedgraph6.6.0.0.nupkg.sha512"
+    }
+  }
+}
